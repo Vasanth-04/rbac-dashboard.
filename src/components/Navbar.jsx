@@ -21,9 +21,8 @@ const Navbar = () => {
                 <div className="flex items-center text-white text-xl md:text-3xl font-bold tracking-wide">
                     {/* RBAC Dashboard Icon */}
                     <span className="mr-2">
-                        <Settings fontSize="large" />{' '}
-                        {/* Add a settings icon */}
-                    </span>
+                    <img src="/images/eaa5b6cfdf64435da087accdefa9d61d-free.png" alt="logo" srcset="" width={"30px"} height={"10px"} />
+                     </span>
                     <span className="sm:inline">RBAC Dashboard</span>
                 </div>
 
