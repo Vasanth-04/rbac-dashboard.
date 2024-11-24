@@ -87,7 +87,7 @@ const Navbar = () => {
             <div
                 className={`${
                     menuOpen ? 'block' : 'hidden'
-                } w-full md:hidden flex flex-col items-center bg-gradient-to-r from-purple-500 via-blue-500 to-indigo-500 py-4 space-y-4`}
+                } w-full md:hidden flex flex-col items-center py-4 space-y-4`}
             >
                 {/* Home Link with Icon */}
                 <Link

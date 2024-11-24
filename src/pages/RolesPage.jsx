@@ -73,7 +73,7 @@ const RolesPage = () => {
 
     return (
         <div>
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            <h2 className="text-2xl text-center sm:text-start font-semibold text-gray-800 mb-4 px-0 sm:px-4">
                 Roles Management
             </h2>
 
@@ -88,11 +88,11 @@ const RolesPage = () => {
 
             {/* Display the current roles */}
             <div className="roles-list mt-8">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+                <h3 className="text-2xl text-center sm:text-start  font-semibold text-gray-800 mb-4 px-0 sm:px-4">
                     Existing Roles
                 </h3>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
                     {roles.map((role) => (
                         <div
                             key={role.id}

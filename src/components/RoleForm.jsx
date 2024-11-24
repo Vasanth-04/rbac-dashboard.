@@ -22,7 +22,7 @@ const RoleForm = ({
     }
 
     return (
-        <div className="role-form bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto mt-6 transform transition-all duration-500 ease-in-out hover:scale-105">
+        <div className="role-form bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto mt-6 transform transition-all duration-500 ease-in-out hover:scale-105">
             {/* Error Message Display */}
             {errorMessage && (
                 <div className="text-red-500 text-sm mb-4 animate__animated animate__fadeIn">
